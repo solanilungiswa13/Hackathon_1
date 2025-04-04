@@ -1,0 +1,174 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.flo {
+    padding: 20px;
+    flex-direction: row-reverse;
+    background: #b5b7b8;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+html {
+    background-blend-mode: color;
+}
+
+
+/*code for mobile devices smaller than 600px*/
+
+body {
+    background-color: teal;
+    font-family: sans-serif;
+    font-size: 110%;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: cadetblue;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: cornflowerblue;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: #89cff0;
+    }
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 110%;
+}
+
+.carousel {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    background-color: #383532;
+    color: aliceblue;
+}
+
+.carousel {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+img {
+    border-style: hidden;
+    margin: 4rem;
+    border-radius: 50%;
+}
+
+h1 {
+    border-style: solid;
+    border-radius: 0%;
+    border-color: #383532;
+}
+
+#carouselExampleControls {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+#skills {
+    background-color: bisque;
+    padding: 0%;
+}
+
+section {
+    border-style: solid;
+    border-color: whitesmoke;
+    padding: right;
+    margin: auto;
+    right: 0%;
+}
+
+
+/* .menuItem {
+    background-color: aquamarine;
+} */
+
+.menuitem {
+    padding: 20px;
+    background-color: rgb(158, 158, 152);
+    width: auto;
+    text-align: left;
+}
+
+h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #aaa8a6;
+    text-align: center;
+}
+
+#listStyle a {
+    list-style-type: none;
+    display: inline;
+    float: center;
+}
+
+a:hover {
+    color: black;
+}
+
+.jumbotron {
+    color: black;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.socials {
+    padding: 1%;
+}
